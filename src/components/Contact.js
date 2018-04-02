@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import '../App.css'
+import Header from './Header'
+import Footer from './Footer'
 
 class Contact extends Component {
     render() {
         return (
+            <div id='page'>
+                <Header />
             <div className="info">
                 <h2>Contact</h2>
                 <section id="content">
@@ -30,6 +34,8 @@ class Contact extends Component {
                         <a href='https://www.instagram.com/thelegendoflandon/?hl=en'>Instagram</a>
                     </article>
                 </section>
+            </div>
+            <Footer />
             </div>
         )
     }
