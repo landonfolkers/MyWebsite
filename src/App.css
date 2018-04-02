@@ -55,11 +55,14 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   height: 85vh;
-  padding-bottom: 30px;
 }
 
 #page {
   padding-bottom: 40px;
+}
+
+#abt {
+  padding-bottom: 10px;
 }
 
 .info {
@@ -79,7 +82,6 @@ main {
 #content {
   display: flex;
   flex-direction: column;
-  margin-top: -30px;
   font-family: 'Slabo 13px', serif;
 }
 
