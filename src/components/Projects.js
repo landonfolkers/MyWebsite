@@ -12,6 +12,11 @@ class Projects extends Component {
                     <h2>Projects</h2>
                     <section id="content">
                         <article id='piece'>
+                            <h3>Marg Finder</h3>
+                            <p>Marg Finder is a full stack application that lets you find margaritas around your location. It also gives you the ability to rate them. The tech stack is React, Node.js, Knex, PostgreSQL, SQL, and Cypress.</p>
+                            <a href='https://marg-finder.firebaseapp.com/'>Marg Finder</a>
+                        </article>
+                        <article id='piece'>
                             <h3>Dog Finder</h3>
                             <p>Dog Finder is an app that allows you to find random dogs in shelters across America. You can search by dog breed and gender. The app was created using HTML5, CSS, and JavaScript.</p>
                             <a href='http://dog-finder.surge.sh/'>Dog Finder</a>

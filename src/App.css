@@ -110,6 +110,41 @@ main {
   display: flex;
 }
 
+#contactboxes {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Slabo 13px', serif;
+  justify-content: space-around;
+}
+
+#contactbox {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Slabo 13px', serif;
+  width: 50vw;
+}
+
+#contactbox h3 {
+  font-size: 22px;
+}
+
+#contactbox p {
+ font-size: 15px;
+}
+
+#contactbox a {
+  text-decoration: none;
+  color: rgb(66, 66, 233);
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  padding-right: 10px;
+}
+#contactbox a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
 #aboutimg {
   display: flex;
   padding: 5px;
