@@ -22,7 +22,7 @@ class Contact extends Component {
                             </article>
                             <article id='piece'>
                                 <h3>Resume</h3>
-                                <a href="./LandonFolkersResume.pdf" download>Download Resume</a>
+                                <a href="./Folkers,LandonResume.pdf" download>Download Resume</a>
                             </article>
                         </section>
                         <section id="contactbox">

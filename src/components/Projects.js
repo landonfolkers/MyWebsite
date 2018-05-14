@@ -13,7 +13,7 @@ class Projects extends Component {
                     <section id="content">
                         <article id='piece'>
                             <h3>Marg Finder</h3>
-                            <p>Marg Finder is a full stack application that lets you find margaritas around your location. It also gives you the ability to rate them. The tech stack is React, Node.js, Knex, PostgreSQL, SQL, and Cypress.</p>
+                            <p>Marg Finder is a full stack application that lets you find margaritas around your location. It also gives you the ability to rate them. The tech stack is React, Node.js, Knex, PostgreSQL, SQL, and Cypress. Note: this project was created for use in Downtown Denver.</p>
                             <a href='https://marg-finder.firebaseapp.com/'>Marg Finder</a>
                         </article>
                         <article id='piece'>
