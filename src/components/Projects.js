@@ -29,7 +29,7 @@ class Projects extends Component {
                         <article id='piece'>
                             <h3>Number Guessing Game</h3>
                             <p>This number guessing game is a console application that has been created with C#. The game is simple, the program randomly selects a number between one and ten, and then the user has to guess what the number is. The user keeps guessing until they get it right, and then they can choose whether or not they want to play again.</p>
-                            <a href='https://github.com/landonfolkers/NumberGenerator'>Number Guesing Game</a>
+                            <a href='https://github.com/landonfolkers/NumberGenerator'>Number Guessing Game</a>
                         </article>
                         <article id='piece'>
                             <h3>Dinos</h3>
