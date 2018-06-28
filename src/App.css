@@ -1,3 +1,4 @@
+@media only screen and (min-width: 800px) {
 header {
   display: flex;
   flex-direction: column;
@@ -35,11 +36,118 @@ header {
   color: rgb(255, 255, 255);
 }
 
+.first li {
+  padding-top: 10px;
+}
+
+.second li {
+  padding-top: 10px;
+}
+
 #choices h1 {
   display: flex;
   font-family: 'Bungee Hairline', cursive;
   font-size: 50px;
 }
+
+main {
+  background-image: url('/pictures/logo.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+#contactboxes {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Slabo 13px', serif;
+  justify-content: space-around;
+}
+
+#contactbox {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Slabo 13px', serif;
+  width: 50vw;
+}
+
+#images {
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutimg {
+  display: flex;
+  padding: 5px;
+}
+
+#aboutimg img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+}
+
+@media only screen and (max-width: 799px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -50px;
+  }
+  
+  #name {
+    font-family: 'Bungee Hairline', cursive;
+    text-align: center;
+  }
+  
+  #choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 20px;
+  }
+  
+  #choices li {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    list-style: none;
+    font-size: 15px;
+  }
+  
+  #choices a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  #choices a:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+
+  .first li {
+    padding-top: 5px;
+  }
+
+  .second li {
+    padding-top: 5px;
+  }
+  
+  #choices h1 {
+    display: flex;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 30px;
+  }
 
 #name {
   font-family: 'Bungee Hairline', cursive;
@@ -51,10 +159,59 @@ main {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 90vh;
+  background-size: 70vh;
   background-position: center;
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 75vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: white;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Slabo 13px', serif;
+} 
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutimg {
+  display: flex;
+  flex-direction: column;
+}
+
+#images {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactboxes {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Slabo 13px', serif;
+  justify-content: space-around;
+}
+
+#contactbox {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Slabo 13px', serif;
+  width: 50vw;
+}
+
+#aboutimg img {
+  height: 275px;
+  width: 277px;
+  padding-top: 20px;
+}
 }
 
 #page {
@@ -68,8 +225,7 @@ main {
 .info {
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
-  margin-top: 0px;
+  margin: 50px;
   background-color: white;
 }
 .info h2 {
@@ -106,24 +262,6 @@ main {
   color: rgb(255, 255, 255);
 }
 
-#about {
-  display: flex;
-}
-
-#contactboxes {
-  display: flex;
-  flex-direction: row;
-  font-family: 'Slabo 13px', serif;
-  justify-content: space-around;
-}
-
-#contactbox {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Slabo 13px', serif;
-  width: 50vw;
-}
-
 #contactbox h3 {
   font-size: 22px;
 }
@@ -140,20 +278,10 @@ main {
   transition-duration: 0.4s;
   padding-right: 10px;
 }
+
 #contactbox a:hover {
   background-color: black;
   color: rgb(255, 255, 255);
-}
-
-#aboutimg {
-  display: flex;
-  padding: 5px;
-}
-
-#aboutimg img {
-  height: 300px;
-  width: 300px;
-  padding: 20px;
 }
 
 footer {
@@ -164,6 +292,7 @@ footer {
   bottom: 0;
   left: 0;
   padding-left: 5px; 
+  padding-right: 10px;
   font-family: 'Montserrat Subrayada', sans-serif;
 }
 
